@@ -10,8 +10,7 @@ for (int i = 0; i < array.Length; i++)
 {
     array [i] = new Random().Next(100,1000);
     Console.Write(array[i] + " ");
-    int currentNumber = array[i];
-    if(currentNumber % 2 == 0)
+    if(array[i] % 2 == 0)
     {
         sum += 1;
     }
