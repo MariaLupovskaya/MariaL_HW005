@@ -11,10 +11,9 @@ for (int i = 0; i < array.Length; i++)
 {
     array [i] = new Random().Next(1,100);
     Console.Write(array[i] + " ");
-    int currentNumber = array[i];
     if(i % 2 == 0)
     {
-        sum += currentNumber;
+        sum += array [i];
     }
 }
 Console.WriteLine();
